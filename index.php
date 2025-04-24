@@ -9,7 +9,7 @@
 
 <body>
     <h2>Pesquisa de livros</h2>
-    <form action="busca.php" method="GET">
+    <form action="busca.php" method="POST">
         <label>Nome do livro</label>
         <input type="text" name="nome_livro" size="58" placeholder="insira o nome do livro">
         <button style="width:100px;">Buscar</button>
